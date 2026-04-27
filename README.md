@@ -1,4 +1,4 @@
-# Crypto Market Tracker
+# Crypto-Dashboard-API-Integration App
 
 A Jupyter Notebook that fetches live cryptocurrency data from the **[CoinMarketCap API](https://coinmarketcap.com/api/)**, processes it into a structured DataFrame, and visualises price performance across multiple timeframes.
 
