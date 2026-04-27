@@ -61,20 +61,6 @@ The notebook will produce:
 * If the API rate limit is exceeded, a `TooManyRedirects` error will be caught and printed
 * If no data is returned for the requested parameters, the response body will indicate the issue
 
-## Security Note
-
-> ⚠️ **Avoid hardcoding your API key directly in the notebook.** Before pushing to GitHub, move it to a `.env` file and load it with `python-dotenv`. Add `.env` to your `.gitignore` to prevent it from being exposed publicly.
-
-```
-pip install python-dotenv
-```
-
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-api_key = os.getenv('CMC_API_KEY')
 ```
 
 ## Notes
